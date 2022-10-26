@@ -1,0 +1,23 @@
+{
+  "name": "@mosaicq/peact-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ZauJulio <zauhdf@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node index.js",
+    "dev": "nodemon -e js,jsx,css --exec npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "peact": "../"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/node": "^7.19.1",
+    "@babel/plugin-transform-react-jsx": "^7.19.0",
+    "@babel/preset-env": "^7.19.4",
+    "babel-plugin-transform-jsx-to-html": "^0.2.1",
+    "nodemon": "^2.0.20"
+  }
+}
