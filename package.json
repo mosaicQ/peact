@@ -1,0 +1,25 @@
+{
+  "name": "@mosaicq/peact",
+  "version": "0.0.1",
+  "description": "Render PDF/HTML with JSX Syntax on NodeJS",
+  "main": "src/index.js",
+  "author": "ZauJulio <zauhdf@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "js-beautify": "^1.14.6",
+    "mime-types": "^2.1.35",
+    "puppeteer": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/js-beautify": "^1.13.3",
+    "@types/mime-types": "^2.1.1"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/node": "^7.19.1",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "babel-plugin-transform-jsx-to-html": "^0.2.1"
+  }
+}
